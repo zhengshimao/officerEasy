@@ -1,0 +1,18 @@
+Package: officerEasy
+Title: Simplify the use of R package flexitable and officer
+Version: 0.0.0.9000
+Authors@R: 
+    person("Shimao", "Zheng", email = "zhengshimao007@163.com", role = c("aut", "cre"))
+Maintainer: Shimao Zheng <zhengshimao007@163.com>
+Description: Simplify the use of R package flexitable and officer.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    flextable,
+    magrittr,
+    officer
+Depends: 
+    R (>= 4.00)
+LazyData: true
